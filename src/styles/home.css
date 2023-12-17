@@ -1,0 +1,32 @@
+.bg-sea {
+    position: relative;
+    background-image: url('../images/bg-1.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.full-w-h {
+    height: 100dvh;
+    width: 100%;
+    
+    background-color: rgb(70, 154, 206);
+}
+.content-container {
+    position: relative;
+    z-index: 1;
+    margin: 0 5%;
+    height: 100%;
+    border: 2px solid lightgreen;
+}
+
+.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.child {
+    position: relative;
+    scroll-snap-align: center;
+    scroll-snap-stop: normal;
+}
